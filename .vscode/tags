@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARTICLE_PATHS	../pelicanconf.py	/^ARTICLE_PATHS = ['blog']$/;"	kind:variable	line:11
+ARTICLE_SAVE_AS	../pelicanconf.py	/^ARTICLE_SAVE_AS = '{date:%Y}\/{slug}.html'$/;"	kind:variable	line:12
+ARTICLE_URL	../pelicanconf.py	/^ARTICLE_URL = '{date:%Y}\/{slug}.html'$/;"	kind:variable	line:13
+AUTHOR	../pelicanconf.py	/^AUTHOR = 'Neill Cox'$/;"	kind:variable	line:5
+AUTHOR_FEED_ATOM	../pelicanconf.py	/^AUTHOR_FEED_ATOM = None$/;"	kind:variable	line:23
+AUTHOR_FEED_RSS	../pelicanconf.py	/^AUTHOR_FEED_RSS = None$/;"	kind:variable	line:24
+AddressReuseTCPServer	../fabfile.py	/^    class AddressReuseTCPServer(SocketServer.TCPServer):$/;"	kind:class	line:51
+CATEGORY_FEED_ATOM	../pelicanconf.py	/^CATEGORY_FEED_ATOM = None$/;"	kind:variable	line:21
+CATEGORY_FEED_ATOM	../publishconf.py	/^CATEGORY_FEED_ATOM = 'feeds\/%s.atom.xml'$/;"	kind:variable	line:17
+ComplexHTTPRequestHandler	../fabfile.py	/^from pelican.server import ComplexHTTPRequestHandler$/;"	kind:namespace	line:8
+DEFAULT_LANG	../pelicanconf.py	/^DEFAULT_LANG = 'en'$/;"	kind:variable	line:17
+DEFAULT_PAGINATION	../pelicanconf.py	/^DEFAULT_PAGINATION = 10$/;"	kind:variable	line:36
+DELETE_OUTPUT_DIRECTORY	../publishconf.py	/^DELETE_OUTPUT_DIRECTORY = True$/;"	kind:variable	line:19
+DEPLOY_PATH	../fabfile.py	/^DEPLOY_PATH = env.deploy_path$/;"	kind:variable	line:12
+FEED_ALL_ATOM	../pelicanconf.py	/^FEED_ALL_ATOM = None$/;"	kind:variable	line:20
+FEED_ALL_ATOM	../publishconf.py	/^FEED_ALL_ATOM = 'feeds\/all.atom.xml'$/;"	kind:variable	line:16
+LINKS	../pelicanconf.py	/^LINKS = (('OpenStack', 'https:\/\/www.openstack.org\/'),$/;"	kind:variable	line:27
+PATH	../pelicanconf.py	/^PATH = 'content'$/;"	kind:variable	line:9
+PORT	../fabfile.py	/^PORT = 8000$/;"	kind:variable	line:27
+RELATIVE_URLS	../publishconf.py	/^RELATIVE_URLS = False$/;"	kind:variable	line:14
+SITENAME	../pelicanconf.py	/^SITENAME = 'Sceptical Believer'$/;"	kind:variable	line:6
+SITEURL	../pelicanconf.py	/^SITEURL = ''$/;"	kind:variable	line:7
+SITEURL	../publishconf.py	/^SITEURL = 'https:\/\/neillcox.io'$/;"	kind:variable	line:13
+SOCIAL	../pelicanconf.py	/^SOCIAL = (('GitHub', 'https:\/\/github.com\/neillc'),$/;"	kind:variable	line:32
+STATIC_PATHS	../pelicanconf.py	/^STATIC_PATHS = ['blog']$/;"	kind:variable	line:10
+SocketServer	../fabfile.py	/^import SocketServer$/;"	kind:namespace	line:6
+TIMEZONE	../pelicanconf.py	/^TIMEZONE = 'Australia\/Sydney'$/;"	kind:variable	line:15
+TRANSLATION_FEED_ATOM	../pelicanconf.py	/^TRANSLATION_FEED_ATOM = None$/;"	kind:variable	line:22
+allow_reuse_address	../fabfile.py	/^        allow_reuse_address = True$/;"	kind:variable	line:52
+b	../fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	kind:namespace	line:92
+build	../fabfile.py	/^def build():$/;"	kind:function	line:35
+cf_upload	../fabfile.py	/^def cf_upload():$/;"	kind:function	line:68
+clean	../fabfile.py	/^def clean():$/;"	kind:function	line:29
+contrib	../fabfile.py	/^import fabric.contrib.project as project$/;"	kind:namespace	line:2
+deploy_path	../fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	kind:namespace	line:92
+dest_path	../fabfile.py	/^dest_path = '\/home\/neillc\/public_html'$/;"	kind:variable	line:16
+fabfile.py	../fabfile.py	1;"	kind:file	line:1
+fabric	../fabfile.py	/^import fabric.contrib.project as project$/;"	kind:namespace	line:2
+gh_pages	../fabfile.py	/^def gh_pages():$/;"	kind:function	line:89
+github_pages_branch	../fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	kind:namespace	line:92
+os	../fabfile.py	/^import os$/;"	kind:namespace	line:3
+os	../publishconf.py	/^import os$/;"	kind:namespace	line:8
+p	../fabfile.py	/^    local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))$/;"	kind:namespace	line:92
+pelicanconf.py	../pelicanconf.py	1;"	kind:file	line:1
+preview	../fabfile.py	/^def preview():$/;"	kind:function	line:64
+production	../fabfile.py	/^production = 'neillc@neillcox.io:10099'$/;"	kind:variable	line:15
+project	../fabfile.py	/^import fabric.contrib.project as project$/;"	kind:namespace	line:2
+publish	../fabfile.py	/^def publish():$/;"	kind:function	line:78
+publishconf.py	../publishconf.py	1;"	kind:file	line:1
+rebuild	../fabfile.py	/^def rebuild():$/;"	kind:function	line:39
+regenerate	../fabfile.py	/^def regenerate():$/;"	kind:function	line:43
+reserve	../fabfile.py	/^def reserve():$/;"	kind:function	line:59
+serve	../fabfile.py	/^def serve():$/;"	kind:function	line:47
+shutil	../fabfile.py	/^import shutil$/;"	kind:namespace	line:4
+sys	../fabfile.py	/^import sys$/;"	kind:namespace	line:5
+sys	../publishconf.py	/^import sys$/;"	kind:namespace	line:9
+unicode_literals	../pelicanconf.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../publishconf.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
