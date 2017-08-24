@@ -12,8 +12,13 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
+<<<<<<< Updated upstream
 production = 'neillc@neillcox.io:10099'
 dest_path = '/home/neillc/public_html'
+=======
+production = 'neill_cox@neillcox.io'
+dest_path = '/home/neill_cox/public_html'
+>>>>>>> Stashed changes
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'

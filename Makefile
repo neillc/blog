@@ -13,9 +13,9 @@ FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
 SSH_HOST=neillcox.io
-SSH_PORT=10099
-SSH_USER=neillc
-SSH_TARGET_DIR=/home/neillc/public_html
+SSH_PORT=22
+SSH_USER=neill_cox
+SSH_TARGET_DIR=/home/neill_cox/public_html
 
 S3_BUCKET=my_s3_bucket
 
